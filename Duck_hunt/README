@@ -1,0 +1,5 @@
+| Integrante   | Responsabilidad                                                                              |
+| ------------ | -------------------------------------------------------------------------------------------- |
+| **Pedro**    | Incorporar y gestionar el **sonido** del juego (disparos, risas del perro, música, etc.).    |
+| **William**  | Programar el **movimiento de los patos y del perro**, incluyendo trayectorias y animaciones. |
+| **Emiliano** | Implementar el **control del joystick** para mover la mira y manejar el sistema de apuntado. |
