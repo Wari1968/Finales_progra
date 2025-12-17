@@ -156,34 +156,34 @@ int main()
     ventana.actualizaVentana();
     ventana.espera(25);
     ventana.limpiaVentana();
-    /*if (k < 0)
+    if (movy > 530)
     {
-     for (int m = k; l < 531; m++)
+     for (int m = l; movy > 0; movy--)
     {
     patoverde=ventana.creaImagenConMascara("Patoverde.bmp","Patoverdemask.bmp");
-    ventana.muestraImagenEscalada(m,l,75,75,patoverde);
+    ventana.muestraImagenEscalada(m,movy,75,75,patoverde);
     ventana.actualizaVentana();
     ventana.espera(25);
     ventana.limpiaVentana();
     patoverde=ventana.creaImagenConMascara("Patoverde1.bmp","Patoverdemask1.bmp");
-    ventana.muestraImagenEscalada(m++,l++,75,75,patoverde);
+    ventana.muestraImagenEscalada(m++,movy--,75,75,patoverde);
     ventana.actualizaVentana();
     ventana.espera(25);
     ventana.limpiaVentana();
     patoverde=ventana.creaImagenConMascara("Patoverde2.bmp","Patoverdemask2.bmp");
-    ventana.muestraImagenEscalada(m++,l++,75,75,patoverde);
+    ventana.muestraImagenEscalada(m++,movy--,75,75,patoverde);
     ventana.eliminaImagen(patoverde);
     ventana.actualizaVentana();
     ventana.espera(25);
     ventana.limpiaVentana();
     patoverde=ventana.creaImagenConMascara("Patoverde1.bmp","Patoverdemask1.bmp");
-    ventana.muestraImagenEscalada(m++,l++,75,75,patoverde);
+    ventana.muestraImagenEscalada(m++,movy--,75,75,patoverde);
     ventana.eliminaImagen(patoverde);
     ventana.actualizaVentana();
     ventana.espera(25);
     ventana.limpiaVentana();
     patoverde=ventana.creaImagenConMascara("Patoverde.bmp","Patoverdemask.bmp");
-    ventana.muestraImagenEscalada(m++,l++,75,75,patoverde);
+    ventana.muestraImagenEscalada(m++,movy--,75,75,patoverde);
     ventana.actualizaVentana();
     ventana.espera(25);
     ventana.limpiaVentana();   
@@ -201,7 +201,7 @@ int main()
     //ventana.actualizaVentana();
     //ventana.limpiaVentana();
     //}
-    }*/
+    }
     }
     }
     }
